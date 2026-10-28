@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">青城山水墨</title>
+  <desc id="desc">青城山层叠峰峦、石阶山门与深林云雾构成幽静水墨景致。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2eee5"/><stop offset="1" stop-color="#d6d9d2"/></linearGradient>
+    <filter id="wash" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".008 .018" numOctaves="5" seed="32"/><feDisplacementMap in="SourceGraphic" scale="20"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <g fill="#434a44" opacity=".2" filter="url(#wash)">
+    <path d="M-90 596c170-227 333-345 484-291 130 46 176 123 300 76 173-65 282-222 430-190 152 33 220 168 348 193 95 19 152-12 228-61v637H-90Z"/>
+    <path d="M-20 700c222-152 395-143 553-55 153 85 257 39 391-30 151-78 278-89 413-5 96 60 196 68 287 28v362H-20Z"/>
+  </g>
+  <g fill="#29302a" opacity=".44" filter="url(#wash)">
+    <path d="M-50 802c148-182 301-232 436-164 109 54 169 124 286 90 180-53 239-196 398-192 140 4 232 109 342 163 95 46 200 39 258 5v296H-50Z"/>
+  </g>
+  <g fill="none" stroke="#303731" stroke-linecap="round">
+    <path d="M635 1000c-19-140 42-260 138-346 80-72 126-147 117-250M693 941c28-89 73-165 137-225 66-62 91-125 80-191" stroke-width="8" opacity=".58"/>
+    <path d="M702 1000c17-55 45-104 88-146 58-57 75-117 61-181" stroke-width="3" opacity=".34"/>
+  </g>
+  <g transform="translate(846 530)" fill="none" stroke="#242a25" stroke-linejoin="round">
+    <path d="M-148 93h296M-123 93V27h246v66M-98 27V-17h196v44M-64-17l64-54 64 54M-74 93v86M74 93v86M-174 179h348" stroke-width="6"/>
+    <path d="M-47 93V45h94v48M0 45v48M-108 27h216M-86-17h172" stroke-width="2.5" opacity=".58"/>
+  </g>
+  <g fill="#252b26" opacity=".45" filter="url(#wash)">
+    <path d="M91 816c15-93 53-172 111-235M142 845c3-105 30-191 84-266M1483 837c-35-122-85-210-158-285M1416 882c-12-104-52-186-113-260" fill="none" stroke="#252b26" stroke-width="15"/>
+    <path d="M97 823c51-38 99-34 142-7 37 23 76 22 116 5 33-14 59-15 88 2v177H97ZM1318 832c55-31 104-22 143 12 47 41 93 40 139 10v146h-282Z"/>
+  </g>
+  <g fill="none" stroke="#2c332d" stroke-width="4" opacity=".3">
+    <path d="M255 222c107 31 194 17 284-33M1131 187c111 42 211 31 320-18M489 355c71 18 134 8 200-18M993 340c79 25 149 18 226-13"/>
+  </g>
+  <g transform="translate(1331 802)" fill="none" stroke="#7b4035" stroke-width="3" opacity=".68">
+    <rect x="-40" y="-40" width="80" height="80" rx="3"/><path d="M-21-21h42v42h-42zM0-32v64M-32 0h64"/>
+  </g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".52"/>
+</svg>

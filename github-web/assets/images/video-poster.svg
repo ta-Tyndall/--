@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">蜀韵成都宣传片封面</title>
+  <desc id="desc">墨色远山、江流、古琴与印章构成宣传片封面，中央题字蜀韵成都。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ede9e0"/><stop offset="1" stop-color="#cdd0c9"/></linearGradient>
+    <filter id="wash" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".008 .02" numOctaves="4" seed="14"/><feDisplacementMap in="SourceGraphic" scale="22"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="6"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+    <radialGradient id="vignette"><stop offset=".6" stop-color="#20251f" stop-opacity="0"/><stop offset="1" stop-color="#20251f" stop-opacity=".38"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <g fill="#2d332e" opacity=".25" filter="url(#wash)">
+    <path d="M-100 520C115 298 303 326 451 411c135 78 254 54 406-48 157-105 297-36 414 61 116 96 246 38 429-55v500H-100Z"/>
+    <path d="M-60 640c201-109 353-31 517 35 177 71 316 21 466-48 176-81 343-47 737 110v210H-60Z"/>
+  </g>
+  <path d="M-40 699c241-93 415-40 578 35 187 86 360 63 521-14 187-90 355-61 581 25v205H-40Z" fill="#5a6661" opacity=".23"/>
+  <g fill="none" stroke="#454d47" stroke-linecap="round" opacity=".45">
+    <path d="M-30 748c239-57 410 7 580 63 189 62 366 48 535-18 183-72 358-48 548 12" stroke-width="3"/>
+    <path d="M30 792c220-37 390 15 534 54 201 54 357 31 514-23 147-51 290-40 446 2" stroke-width="2"/>
+  </g>
+  <g transform="translate(1203 571)" opacity=".78">
+    <path d="M-176 18C-132-75-35-133 78-133s217 58 260 151c-51 49-150 74-260 74S-125 67-176 18Z" fill="#ede9e0" stroke="#242924" stroke-width="7"/>
+    <path d="M-177 18c126 40 379 40 510 0M-130 68c105 22 309 22 415-2" fill="none" stroke="#242924" stroke-width="4"/>
+    <g fill="none" stroke="#303530" stroke-width="1.5">
+      <path d="M-127-18l70 117M-83-46l70 128M-26-60l70 135M34-62l70 135M94-53l70 128M154-34l70 121M213-5l70 107"/>
+    </g>
+    <path d="M320 18l46 29" stroke="#8c5a43" stroke-width="3"/>
+  </g>
+  <circle cx="798" cy="419" r="136" fill="#efebe2" opacity=".76"/>
+  <circle cx="798" cy="419" r="118" fill="none" stroke="#262b26" stroke-width="3" stroke-dasharray="3 8" opacity=".42"/>
+  <g font-family="Noto Serif SC, Songti SC, STSong, serif" fill="#20251f" text-anchor="middle">
+    <text x="798" y="401" font-size="72" letter-spacing="9">蜀韵</text>
+    <text x="798" y="471" font-size="52" letter-spacing="12">成 都</text>
+  </g>
+  <g transform="translate(807 540)" fill="none" stroke="#7c4437" stroke-width="3" opacity=".72">
+    <rect x="-34" y="-34" width="68" height="68" rx="2"/><path d="M-17-17h34v34h-34zM0-27v54M-27 0h54"/>
+  </g>
+  <path d="M115 116h1370M115 785h1370" stroke="#303630" stroke-width="1" opacity=".25"/>
+  <text x="118" y="94" font-family="Noto Serif SC, Songti SC, STSong, serif" font-size="20" fill="#303630" letter-spacing="4" opacity=".64">A FILM ABOUT CHENGDU</text>
+  <text x="1482" y="806" text-anchor="end" font-family="Noto Serif SC, Songti SC, STSong, serif" font-size="18" fill="#303630" letter-spacing="3" opacity=".55">千年天府 · 一城蜀韵</text>
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity=".46"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">琵琶线描</title>
+  <desc id="desc">梨形琵琶与弦轴以写意线描呈现。</desc>
+  <g fill="none" stroke="#20221f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 204c-28-4-51-28-49-55 2-26 22-41 22-62 0-15 11-27 27-27s27 12 27 27c0 21 20 36 22 62 2 27-21 51-49 55Z" stroke-width="4"/>
+    <path d="M119 204c-20-11-35-32-34-55 1-23 18-36 20-59 1-10 6-18 14-22 8 4 13 12 14 22 2 23 19 36 20 59 1 23-14 44-34 55Z" stroke-width="1" opacity=".55"/>
+    <path d="M119 61V25M101 44h36M105 34h28" stroke-width="4"/>
+    <path d="M108 72l-8-46M131 72l8-46" stroke-width="3"/>
+    <path d="M111 93v101M119 91v105M127 93v101M135 97v92" stroke-width="1"/>
+    <path d="M97 139c14 7 32 7 46 0" stroke="#8f6e4c" stroke-width="1.6"/>
+    <path d="M83 124c-13 3-20 13-20 24 0 14 13 24 27 20" stroke-width="2" opacity=".3"/>
+    <circle cx="109" cy="42" r="4" fill="#9b5f4b" opacity=".55" stroke="none"/>
+  </g>
+</svg>

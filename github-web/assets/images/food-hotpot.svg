@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">成都鸳鸯火锅水墨插画</title>
+  <desc id="desc">一口太极鸳鸯锅，周围环绕辣椒、花椒与竹筷，以淡赭色点染。</desc>
+  <defs>
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".02" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#eeeae1"/>
+  <ellipse cx="600" cy="700" rx="350" ry="73" fill="#252a25" opacity=".12" filter="url(#soft)"/>
+  <g fill="none" stroke="#252a25" stroke-linecap="round" stroke-linejoin="round" filter="url(#rough)">
+    <ellipse cx="600" cy="500" rx="305" ry="225" stroke-width="8"/>
+    <ellipse cx="600" cy="469" rx="275" ry="185" stroke-width="5"/>
+    <ellipse cx="600" cy="574" rx="181" ry="71" stroke-width="4"/>
+    <path d="M600 291c-25 74-25 255 0 354M600 291c25 74 25 255 0 354" stroke-width="7"/>
+    <path d="M369 426c32 46 69 74 127 92M831 426c-32 46-69 74-127 92" stroke-width="2" opacity=".38"/>
+    <path d="M356 338c-69 4-117 55-117 119 0 96 104 177 234 211" stroke="#a05f48" stroke-width="5" opacity=".54"/>
+    <path d="M844 338c69 4 117 55 117 119 0 96-104 177-234 211" stroke="#596c70" stroke-width="5" opacity=".54"/>
+  </g>
+  <g fill="#8c6148" opacity=".62">
+    <path d="M435 400c-24-22-52-7-49 16 4 23 34 24 49 8 13 13 32 10 37-5 6-18-17-33-37-19Z"/>
+    <path d="M506 480c-22-17-45-2-39 18 5 17 29 18 39 4 11 12 29 7 31-7 3-16-16-27-31-15Z"/>
+    <path d="M440 544c-21-18-43-5-39 14 4 17 27 21 39 8 12 11 27 4 28-8 2-15-15-25-28-14Z"/>
+  </g>
+  <g fill="none" stroke="#4b5551" stroke-width="3" opacity=".62">
+    <circle cx="708" cy="400" r="13"/><circle cx="747" cy="465" r="9"/><circle cx="691" cy="512" r="11"/>
+    <path d="M656 375c39 8 68 26 88 54M643 548c31-12 55-30 70-51"/>
+  </g>
+  <g fill="none" stroke="#292e29" stroke-linecap="round">
+    <path d="M784 238c13-47 7-80-7-113M848 237c-2-51-21-84-45-108M904 251c13-47 10-75-2-101" stroke-width="4" opacity=".32"/>
+    <path d="M764 245c-46-55-92-70-132-57M850 221c55-39 97-39 126-17M898 254c44-25 80-20 105 5" stroke-width="3" opacity=".22"/>
+    <path d="M926 682l151 102M1015 660l53 111" stroke-width="8"/>
+    <path d="M990 649l49 18-31 24" stroke-width="3"/>
+  </g>
+  <g fill="#8c5c46">
+    <path d="M278 598c-49-9-69 21-47 47 25 29 76 20 81-16 4-25-11-38-34-31Z" opacity=".58"/>
+    <path d="M330 640c-38-3-49 22-29 40 20 17 55 5 52-21-1-13-9-20-23-19Z" opacity=".45"/>
+  </g>
+  <g fill="#596a6d" opacity=".52">
+    <circle cx="254" cy="547" r="28"/><circle cx="298" cy="573" r="18"/><circle cx="860" cy="679" r="23"/>
+  </g>
+  <g fill="#282d28" opacity=".72">
+    <path d="M525 675c9-11 24-9 31 2l7 12c-11 10-34 10-47 0Z"/>
+    <path d="M575 681c7-14 23-16 33-4l7 9c-10 12-31 15-46 6Z"/>
+    <path d="M632 676c11-11 25-7 29 5l4 9c-12 9-31 8-42-1Z"/>
+  </g>
+  <g transform="translate(588 90)" fill="none" stroke="#7c3d33" stroke-width="3" opacity=".7">
+    <rect x="-38" y="-41" width="76" height="82" rx="4"/>
+    <path d="M-18-22h36M-18-3h36M-18 16h36M-4-31v62M13-31v62"/>
+  </g>
+</svg>

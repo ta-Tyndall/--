@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">埙线描</title>
+  <desc id="desc">古朴陶埙，器身留白与淡墨晕染相映。</desc>
+  <g fill="none" stroke="#20221f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M151 195c-6 17-26 26-48 20-25-7-40-31-34-58 7-31 32-52 55-73 5-5 12-4 15 4 8 25 20 76 12 107Z" fill="#20221f" fill-opacity=".04" stroke-width="4"/>
+    <path d="M96 83c13-8 26-18 34-27" stroke-width="2" opacity=".55"/>
+    <ellipse cx="113" cy="104" rx="9" ry="6" transform="rotate(-20 113 104)" stroke-width="3"/>
+    <circle cx="102" cy="137" r="7" stroke-width="3"/>
+    <circle cx="119" cy="154" r="6" stroke-width="3"/>
+    <circle cx="91" cy="166" r="5" stroke-width="2.5"/>
+    <path d="M80 119c-16 2-28 14-30 29-2 19 10 35 27 39" stroke-width="2" opacity=".3"/>
+    <path d="M147 93c18-2 30 7 34 20" stroke="#8f6e4c" stroke-width="1.5"/>
+  </g>
+</svg>
