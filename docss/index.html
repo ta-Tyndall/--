@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人名片</title>
+
+    <!-- 引入外部图标库（Font Awesome 免费版） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- 引入分离的外部样式表 -->
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+
+    <!-- ===== 页面整体背景容器 ===== -->
+    <div class="page-wrapper">
+
+        <!-- ===== 名片主卡片 ===== -->
+        <div class="card">
+
+            <!-- ① 头像区域 -->
+            <div class="avatar-wrapper">
+                <!--
+                    圆形头像：使用 object-fit: cover 保证图片填满圆形区域不变形。
+                    此处使用在线占位图，实际使用时替换 src 为本地路径或真实 URL。
+                -->
+                <img
+                    class="avatar"
+                    src="https://api.dicebear.com/8.x/adventurer/svg?seed=暮烟&backgroundColor=b6e3f4"
+                    alt="个人头像"
+                >
+                <!-- 头像下方的在线状态指示圆点 -->
+                <span class="online-dot" title="在线"></span>
+            </div>
+
+            <!-- ② 姓名与职位 -->
+            <div class="info-block">
+                <h1 class="name">李云帆</h1>
+                <p class="job-title">高级前端开发工程师</p>
+                <p class="company">
+                    <i class="fa-solid fa-building"></i>
+                    极光科技 · 前端基础架构组
+                </p>
+            </div>
+
+            <!-- ③ 分隔线 -->
+            <hr class="divider">
+
+            <!-- ④ 联系方式列表 -->
+            <ul class="contact-list">
+
+                <!-- 手机 -->
+                <li class="contact-item">
+                    <span class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <a href="tel:+8613800138000" class="contact-link">+86 138-0013-8000</a>
+                </li>
+
+                <!-- 邮箱 -->
+                <li class="contact-item">
+                    <span class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <a href="mailto:liyunfan@example.com" class="contact-link">liyunfan@example.com</a>
+                </li>
+
+                <!-- 个人网站 -->
+                <li class="contact-item">
+                    <span class="contact-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </span>
+                    <a href="https://liyunfan.dev" target="_blank" class="contact-link">liyunfan.dev</a>
+                </li>
+
+                <!-- 所在城市 -->
+                <li class="contact-item">
+                    <span class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <span class="contact-text">北京市 · 朝阳区</span>
+                </li>
+
+            </ul>
+
+            <!-- ⑤ 社交媒体图标按钮组 -->
+            <div class="social-bar">
+
+                <!-- GitHub -->
+                <a href="https://github.com/" target="_blank" class="social-btn github" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <!-- 微信（图标使用 weixin） -->
+                <a href="#" class="social-btn wechat" title="微信：liyunfan_wx">
+                    <i class="fa-brands fa-weixin"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/" target="_blank" class="social-btn linkedin" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <!-- 掘金（使用通用图标代替） -->
+                <a href="https://juejin.cn/" target="_blank" class="social-btn juejin" title="掘金">
+                    <i class="fa-solid fa-pen-nib"></i>
+                </a>
+
+            </div>
+
+            <!-- ⑥ 底部行动按钮 -->
+            <div class="action-bar">
+                <a href="tel:+8613800138000" class="btn btn-primary">
+                    <i class="fa-solid fa-phone-flip"></i> 立即联系
+                </a>
+                <a href="mailto:liyunfan@example.com" class="btn btn-outline">
+                    <i class="fa-solid fa-paper-plane"></i> 发送邮件
+                </a>
+            </div>
+
+        </div>
+        <!-- ===== 名片卡片结束 ===== -->
+
+    </div>
+    <!-- ===== 页面容器结束 ===== -->
+
+</body>
+</html>

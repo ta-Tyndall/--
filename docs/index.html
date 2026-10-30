@@ -1,129 +1,242 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人名片</title>
-
-    <!-- 引入外部图标库（Font Awesome 免费版） -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- 引入分离的外部样式表 -->
-    <link rel="stylesheet" href="card.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#242824">
+  <meta name="description" content="蜀韵·成都文化旅游宣传站：在都江堰、宽窄巷子与熊猫竹影之间，遇见千年天府。">
+  <title>蜀韵·成都｜成都文化旅游</title>
+  <link rel="icon" href="assets/images/logo-qin.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/home.css">
 </head>
-<body>
+<body class="home-page">
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <h1 class="visually-hidden">蜀韵·成都——成都文化旅游宣传网站</h1>
 
-    <!-- ===== 页面整体背景容器 ===== -->
-    <div class="page-wrapper">
+  <!-- 首页页头：左侧古琴徽记与站名，右侧五项主导航；移动端切换为全屏墨色菜单。 -->
+  <header class="home-header" data-site-header data-mobile-nav>
+    <div class="home-header__inner">
+      <a class="home-brand" href="index.html" aria-label="蜀韵成都首页">
+        <img src="assets/images/logo-qin.svg" alt="">
+        <span class="home-brand__text">
+          <span class="home-brand__title">蜀韵 · 成都</span>
+          <span class="home-brand__sub">Chengdu Culture &amp; Travel</span>
+        </span>
+      </a>
 
-        <!-- ===== 名片主卡片 ===== -->
-        <div class="card">
+      <nav class="home-nav" id="home-navigation" aria-label="主导航">
+        <a class="nav-link is-active" href="index.html" aria-current="page">
+          <span class="nav-link__index">01</span>首页
+          <img class="nav-instrument" src="assets/images/instrument-qin.svg" alt="">
+        </a>
+        <a class="nav-link" href="food.html">
+          <span class="nav-link__index">02</span>美食
+          <img class="nav-instrument" src="assets/images/instrument-xun.svg" alt="">
+        </a>
+        <a class="nav-link" href="sights.html">
+          <span class="nav-link__index">03</span>景点
+          <img class="nav-instrument" src="assets/images/instrument-xiao.svg" alt="">
+        </a>
+        <a class="nav-link" href="culture.html">
+          <span class="nav-link__index">04</span>文化
+          <img class="nav-instrument" src="assets/images/instrument-pipa.svg" alt="">
+        </a>
+        <a class="nav-link" href="travel.html">
+          <span class="nav-link__index">05</span>攻略
+          <img class="nav-instrument" src="assets/images/instrument-di.svg" alt="">
+        </a>
+        <a class="home-nav__mobile-cta" href="#about">向下展开成都</a>
+      </nav>
 
-            <!-- ① 头像区域 -->
-            <div class="avatar-wrapper">
-                <!--
-                    圆形头像：使用 object-fit: cover 保证图片填满圆形区域不变形。
-                    此处使用在线占位图，实际使用时替换 src 为本地路径或真实 URL。
-                -->
-                <img
-                    class="avatar"
-                    src="https://api.dicebear.com/8.x/adventurer/svg?seed=暮烟&backgroundColor=b6e3f4"
-                    alt="个人头像"
-                >
-                <!-- 头像下方的在线状态指示圆点 -->
-                <span class="online-dot" title="在线"></span>
-            </div>
-
-            <!-- ② 姓名与职位 -->
-            <div class="info-block">
-                <h1 class="name">李云帆</h1>
-                <p class="job-title">高级前端开发工程师</p>
-                <p class="company">
-                    <i class="fa-solid fa-building"></i>
-                    极光科技 · 前端基础架构组
-                </p>
-            </div>
-
-            <!-- ③ 分隔线 -->
-            <hr class="divider">
-
-            <!-- ④ 联系方式列表 -->
-            <ul class="contact-list">
-
-                <!-- 手机 -->
-                <li class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fa-solid fa-phone"></i>
-                    </span>
-                    <a href="tel:+8613800138000" class="contact-link">+86 138-0013-8000</a>
-                </li>
-
-                <!-- 邮箱 -->
-                <li class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fa-solid fa-envelope"></i>
-                    </span>
-                    <a href="mailto:liyunfan@example.com" class="contact-link">liyunfan@example.com</a>
-                </li>
-
-                <!-- 个人网站 -->
-                <li class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fa-solid fa-globe"></i>
-                    </span>
-                    <a href="https://liyunfan.dev" target="_blank" class="contact-link">liyunfan.dev</a>
-                </li>
-
-                <!-- 所在城市 -->
-                <li class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </span>
-                    <span class="contact-text">北京市 · 朝阳区</span>
-                </li>
-
-            </ul>
-
-            <!-- ⑤ 社交媒体图标按钮组 -->
-            <div class="social-bar">
-
-                <!-- GitHub -->
-                <a href="https://github.com/" target="_blank" class="social-btn github" title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <!-- 微信（图标使用 weixin） -->
-                <a href="#" class="social-btn wechat" title="微信：liyunfan_wx">
-                    <i class="fa-brands fa-weixin"></i>
-                </a>
-
-                <!-- LinkedIn -->
-                <a href="https://linkedin.com/" target="_blank" class="social-btn linkedin" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-
-                <!-- 掘金（使用通用图标代替） -->
-                <a href="https://juejin.cn/" target="_blank" class="social-btn juejin" title="掘金">
-                    <i class="fa-solid fa-pen-nib"></i>
-                </a>
-
-            </div>
-
-            <!-- ⑥ 底部行动按钮 -->
-            <div class="action-bar">
-                <a href="tel:+8613800138000" class="btn btn-primary">
-                    <i class="fa-solid fa-phone-flip"></i> 立即联系
-                </a>
-                <a href="mailto:liyunfan@example.com" class="btn btn-outline">
-                    <i class="fa-solid fa-paper-plane"></i> 发送邮件
-                </a>
-            </div>
-
-        </div>
-        <!-- ===== 名片卡片结束 ===== -->
-
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="home-navigation" data-nav-toggle aria-label="打开导航菜单">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <!-- ===== 页面容器结束 ===== -->
+  </header>
 
+  <main id="main-content">
+    <!-- 全屏轮播：三帧分别对应都江堰、宽窄巷子和熊猫基地，支持自动播放、按钮与键盘切换。 -->
+    <section class="hero-carousel is-running" role="region" aria-roledescription="轮播图" aria-label="成都代表性景观" data-carousel data-autoplay="7000">
+      <div class="hero-slides">
+        <article class="hero-slide is-active" data-slide aria-hidden="false">
+          <img class="hero-slide__image" src="assets/images/banner-dujiangyan.svg" alt="水墨长卷中的都江堰、岷江与远山" fetchpriority="high">
+          <div class="hero-copy">
+            <p class="hero-copy__kicker">DUJIANGYAN · 世界水利遗产</p>
+            <h2><span>堰水</span><span>千年</span></h2>
+            <hr class="hero-copy__line">
+            <div class="hero-copy__details">
+              <p class="hero-copy__desc">一江岷水自群山而来，鱼嘴分江、飞沙泄洪。两千余年的治水智慧，让成都平原从此水旱从人、沃野千里。</p>
+              <a class="ink-button" href="sights.html">循水问堰</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" data-slide aria-hidden="true">
+          <img class="hero-slide__image" src="assets/images/banner-kuanzhai.svg" alt="青砖黛瓦、灯笼与月色交织的宽窄巷子" loading="lazy">
+          <div class="hero-copy">
+            <p class="hero-copy__kicker">KUANZHAI ALLEYS · 少城旧梦</p>
+            <h2><span>巷陌</span><span>烟火</span></h2>
+            <hr class="hero-copy__line">
+            <div class="hero-copy__details">
+              <p class="hero-copy__desc">青砖黛瓦藏着少城旧梦，一盏清茶泡开成都的晨昏。宽与窄之间，院落、川剧与市井烟火缓缓相融。</p>
+              <a class="ink-button" href="culture.html">入巷听戏</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" data-slide aria-hidden="true">
+          <img class="hero-slide__image" src="assets/images/banner-panda.svg" alt="淡墨竹影中安坐的大熊猫" loading="lazy">
+          <div class="hero-copy">
+            <p class="hero-copy__kicker">PANDA BASE · 万物有灵</p>
+            <h2><span>竹影</span><span>憨眠</span></h2>
+            <hr class="hero-copy__line">
+            <div class="hero-copy__details">
+              <p class="hero-copy__desc">风过竹林，黑白团子在晨露间醒来。成都以温柔相待万物，也让每一个远道而来的人，放下匆忙。</p>
+              <a class="ink-button" href="sights.html">去看熊猫</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <canvas class="hero-canvas" data-ink-canvas aria-hidden="true"></canvas>
+
+      <div class="hero-side-note" aria-hidden="true">
+        <span class="hero-side-note__en">Ink · Music · Chengdu</span>
+        <span class="hero-side-note__line"></span>
+      </div>
+
+      <div class="hero-controls">
+        <div class="hero-indicators" role="group" aria-label="选择轮播画面">
+          <button class="hero-indicator" type="button" data-carousel-indicator="0" aria-label="显示都江堰" aria-current="true"><span>壹</span><span class="hero-indicator__label">都江堰</span></button>
+          <button class="hero-indicator" type="button" data-carousel-indicator="1" aria-label="显示宽窄巷子" aria-current="false"><span>贰</span><span class="hero-indicator__label">宽窄巷子</span></button>
+          <button class="hero-indicator" type="button" data-carousel-indicator="2" aria-label="显示熊猫基地" aria-current="false"><span>叁</span><span class="hero-indicator__label">熊猫基地</span></button>
+        </div>
+        <div class="hero-arrows">
+          <button class="hero-arrow" type="button" data-carousel-prev aria-label="上一张">
+            <span class="hero-arrow__glyph" aria-hidden="true">←</span>
+          </button>
+          <button class="hero-arrow hero-arrow--next" type="button" data-carousel-next aria-label="下一张">
+            <span class="hero-arrow__glyph" aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+
+      <a class="hero-scroll" href="#film">SCROLL</a>
+      <div class="hero-progress" aria-hidden="true"><span class="hero-progress__bar" data-carousel-progress></span></div>
+      <p class="visually-hidden" aria-live="polite" data-carousel-status>第 1 张，共 3 张：都江堰</p>
+    </section>
+
+    <!-- 宣传视频：默认只展示封面，点击后淡出封面并调用原生视频控件。 -->
+    <section class="film-section section" id="film" aria-labelledby="film-title">
+      <div class="container film-grid">
+        <div class="film-copy" data-reveal="left">
+          <p class="eyebrow">A FILM ABOUT CHENGDU</p>
+          <h2 id="film-title">看见<br>成都 <em>一城蜀韵，千年天府</em></h2>
+          <p>从江堰水声到巷陌茶烟，从川剧唱腔到竹林清风。十九秒水墨长卷，先替这座城说一句：慢慢来，才看得见成都。</p>
+          <div class="film-meta">
+            <span>片长 · 00:19</span>
+            <span>影像 · 本地水墨长卷</span>
+            <span>语言 · 无对白</span>
+          </div>
+        </div>
+
+        <figure class="film-frame" data-video-frame data-reveal="right">
+          <video class="promo-video" controls preload="none" playsinline poster="assets/images/video-poster.svg" data-video-player aria-label="蜀韵成都水墨宣传短片">
+            <source src="assets/video/promo.mp4" type="video/mp4">
+            <track kind="captions" src="assets/video/promo.vtt" srclang="zh" label="中文场景说明">
+            您的浏览器不支持视频播放，请使用现代浏览器访问。
+          </video>
+          <div class="video-poster-layer">
+            <button class="video-trigger" type="button" data-video-trigger aria-label="播放蜀韵成都宣传片">
+              <span class="video-trigger__play" aria-hidden="true"></span>
+              <span class="video-trigger__label">播放宣传片</span>
+            </button>
+          </div>
+          <figcaption class="video-caption">SHUYUN CHENGDU · 2026</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 百字成都介绍：大字标题、首字下沉与印章落款构成东方编辑式版面。 -->
+    <section class="intro-section section" id="about" aria-labelledby="about-title">
+      <div class="container intro-grid">
+        <div class="intro-index" aria-hidden="true" data-reveal="left">01</div>
+        <div class="intro-copy">
+          <p class="eyebrow" data-reveal>CITY PORTRAIT · 城市画像</p>
+          <h2 id="about-title" data-reveal><span>成都，</span>是一座<br>可以慢下来的城。</h2>
+          <p class="intro-text" data-reveal>成都，是一片被岷江润泽千年的土地。晨雾绕青城，茶烟起巷陌；都江堰分一江春水，武侯祠留三国风骨。川剧一转身，蜀绣一线间，麻辣与清欢同席。这里的慢，不是停步，而是让日子有滋有味；这里的韵，在竹影、琴声与人间烟火里，悠悠不绝。</p>
+        </div>
+        <aside class="intro-aside" aria-label="城市题签" data-reveal="right">
+          <p class="intro-aside__quote">“九天开出一成都，<br>万户千门入画图。”</p>
+          <span class="seal" aria-label="蜀韵印章">蜀韵<br>成都</span>
+          <span class="vertical-note">CHENGDU · SICHUAN · CHINA</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 三项内容索引，以可点击目录引导用户进入其余页面。 -->
+    <nav class="home-index" aria-label="探索成都更多内容">
+      <div class="container home-index__inner">
+        <a class="home-index__item" href="food.html" data-reveal>
+          <span class="home-index__no">02 / TASTE</span>
+          <h3>麻辣之外<br>百味成诗</h3>
+          <p>一口红油，一盏盖碗茶。成都的味道，从来不只一种。</p>
+          <span class="home-index__arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="home-index__item" href="sights.html" data-reveal style="--reveal-delay: 100ms">
+          <span class="home-index__no">03 / SIGHTS</span>
+          <h3>山水之间<br>处处留白</h3>
+          <p>古堰、青城、竹林与街巷，在城市的远近之间自在铺陈。</p>
+          <span class="home-index__arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="home-index__item" href="culture.html" data-reveal style="--reveal-delay: 200ms">
+          <span class="home-index__no">04 / CULTURE</span>
+          <h3>一戏一绣<br>一茶一琴</h3>
+          <p>听川剧高腔，看蜀绣针脚，在茶香里遇见成都的性情。</p>
+          <span class="home-index__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </nav>
+  </main>
+
+  <!-- 首页页尾：品牌叙事、联系信息与社交入口分栏展开。 -->
+  <footer class="home-footer" id="footer">
+    <div class="container home-footer__main">
+      <div class="home-footer__brand">
+        <img src="assets/images/logo-qin.svg" alt="">
+        <h2>蜀韵成都<br>一城风雅</h2>
+        <p>以墨为骨，以乐为魂。愿每一次到访，都能在成都找到属于自己的慢与远。</p>
+      </div>
+      <div class="home-footer__column">
+        <h3>寻迹 · Contact</h3>
+        <ul>
+          <li><a href="mailto:hello@shuyun-chengdu.cn">hello@shuyun-chengdu.cn</a></li>
+          <li><a href="tel:+862888888888">+86 28 8888 8888</a></li>
+          <li><a href="travel.html#travel-notes">成都市青羊区 · 少城</a></li>
+        </ul>
+      </div>
+      <div class="home-footer__column">
+        <h3>相连 · Follow</h3>
+        <ul>
+          <li><a href="https://weibo.com/" target="_blank" rel="noopener noreferrer">微博 · 蜀韵成都</a></li>
+          <li><a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener noreferrer">小红书 · 成都慢游</a></li>
+          <li><a href="#film">影像 · 成都十九秒</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container home-footer__bottom">
+      <p>© 2026 蜀韵·成都文化旅游宣传站。本站为文化展示示例。</p>
+      <p>古琴 <span aria-hidden="true">·</span> 箫 <span aria-hidden="true">·</span> 笛 <span aria-hidden="true">·</span> 琵琶 <span aria-hidden="true">·</span> 埙</p>
+      <p class="home-footer__stamp">蜀 · 韵</p>
+    </div>
+  </footer>
+
+  <script defer src="assets/js/modules/navigation.js"></script>
+  <script defer src="assets/js/modules/reveal.js"></script>
+  <script defer src="assets/js/modules/carousel.js"></script>
+  <script defer src="assets/js/modules/video.js"></script>
+  <script defer src="assets/js/modules/ink-canvas.js"></script>
+  <script defer src="assets/js/main.js"></script>
 </body>
 </html>

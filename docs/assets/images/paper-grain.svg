@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="4" seed="23" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="table" tableValues="0 .12"/>
+    </feComponentTransfer>
+  </filter>
+  <rect width="400" height="400" filter="url(#grain)" opacity=".28"/>
+</svg>

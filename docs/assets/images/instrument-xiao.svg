@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">箫线描</title>
+  <desc id="desc">一支竖箫与袅袅墨烟，取意箫声悠远。</desc>
+  <g fill="none" stroke="#20221f" stroke-linecap="round">
+    <path d="M126 36c6 48 6 116 2 164" stroke-width="12" opacity=".12"/>
+    <path d="M119 30c2 24 1 35 1 58 0 42 3 81 5 123" stroke-width="4"/>
+    <path d="M141 31c-1 24 0 35-1 58-1 42-4 81-6 123" stroke-width="3"/>
+    <path d="M120 45c7 2 14 2 20 0M119 68c8 2 15 2 22 0M119 91c8 2 16 2 23 0M120 114c8 2 15 2 22 0M121 137c8 2 15 2 21 0M124 178c7 2 13 2 19 0M126 198c6 2 11 2 16 0" stroke-width="3"/>
+    <path d="M117 31c7-3 17-3 25 0" stroke-width="4"/>
+    <path d="M143 208c13 9 23 9 34 0M150 218c8 4 14 4 22 0" stroke="#8f6e4c" stroke-width="1.5"/>
+    <path d="M91 46c-13-12-24-9-24 1 0 12 17 9 17 21 0 11-16 10-24 2M91 86c-23-15-40-6-37 7 3 14 26 8 25 21-1 12-20 13-31 3" stroke-width="2.5" opacity=".28"/>
+  </g>
+</svg>

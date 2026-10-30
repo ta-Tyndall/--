@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">古琴线描</title>
+  <desc id="desc">焦墨线描古琴，七弦与琴徽清晰可辨。</desc>
+  <g fill="none" stroke="#20221f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 122c18-31 51-49 92-49s74 18 92 49c-18 26-51 39-92 39s-74-13-92-39Z" stroke-width="4"/>
+    <path d="M29 122c48 16 134 16 182 0" stroke-width="3"/>
+    <path d="M49 137c37 10 104 10 142 0" stroke-width="1.2"/>
+    <g stroke-width="1">
+      <path d="M49 84l28 64M62 76l28 71M76 70l28 77M91 66l28 81M106 64l28 83M121 64l28 82M136 66l28 79M151 70l28 75M166 76l28 69"/>
+    </g>
+    <path d="M57 114c38 9 87 9 125 0" stroke="#8f6e4c" stroke-width="2"/>
+    <path d="M184 168l24 15" stroke="#8f6e4c" stroke-width="1.4"/>
+  </g>
+  <circle cx="184" cy="168" r="7" fill="#9b5f4b" opacity=".6"/>
+</svg>
