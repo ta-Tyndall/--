@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">古琴徽记</title>
+  <desc id="desc">以焦墨勾勒的古琴轮廓与七弦，构成蜀韵成都的品牌徽记。</desc>
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="53" fill="none" stroke="#282a26" stroke-width="1.2" stroke-dasharray="2 5" opacity=".45"/>
+  <g filter="url(#rough)">
+    <path d="M25 63c7-17 21-29 35-29s28 12 35 29c-8 9-21 13-35 13S33 72 25 63Z" fill="#f5f1e8" stroke="#20221f" stroke-width="3.2"/>
+    <path d="M26 63c19 7 48 7 68 0" fill="none" stroke="#20221f" stroke-width="2.2"/>
+    <path d="M38 68c11 1 30 1 44-1" fill="none" stroke="#20221f" stroke-width="1.2"/>
+    <path d="M38 43l13 31M45 39l13 35M53 36l13 39M61 35l13 40M69 36l13 39M77 39l13 35M84 44l12 29" fill="none" stroke="#2a2c28" stroke-width=".8" opacity=".9"/>
+    <path d="M35 58c6 3 14 5 23 5s18-2 26-5" fill="none" stroke="#a07d54" stroke-width="1.4" opacity=".75"/>
+    <circle cx="84" cy="76" r="4.5" fill="#a05e49" opacity=".62"/>
+    <path d="M79 77l-8 5" stroke="#a05e49" stroke-width="1" opacity=".55"/>
+  </g>
+  <path d="M32 83c16 4 41 4 57 0" fill="none" stroke="#282a26" stroke-width="1" stroke-linecap="round" opacity=".35"/>
+</svg>

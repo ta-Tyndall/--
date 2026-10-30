@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">川剧脸谱水墨插画</title>
+  <desc id="desc">以焦墨、飞白与淡靛青绘成的川剧脸谱，眉眼凌厉而不失灵韵。</desc>
+  <defs>
+    <filter id="brush" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".015 .03" numOctaves="4" seed="61" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="12" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#efebe2"/>
+  <circle cx="600" cy="464" r="330" fill="#252a25" opacity=".06" filter="url(#blur)"/>
+  <g fill="none" stroke="#222722" stroke-linecap="round" stroke-linejoin="round" filter="url(#brush)">
+    <path d="M600 123c-120 0-218 69-239 181-26 139 33 301 133 402 35 35 73 57 106 60 34-3 71-25 106-60 100-101 159-263 133-402-21-112-119-181-239-181Z" stroke-width="9"/>
+    <path d="M399 325c37-46 83-65 139-54-13 53-51 83-109 89M801 325c-37-46-83-65-139-54 13 53 51 83 109 89" stroke-width="8"/>
+    <path d="M425 382c33 30 68 35 104 13-24 49-67 51-104-13ZM775 382c-33 30-68 35-104 13 24 49 67 51 104-13Z" stroke-width="5"/>
+    <path d="M600 258c-25 56-28 120-8 186M528 471c-42 38-60 87-38 134 24 51 76 68 110 28 34 40 86 23 110-28 22-47 4-96-38-134" stroke-width="7"/>
+    <path d="M514 620c52 19 120 19 172 0M557 665c27 12 59 12 86 0M572 507c9 7 47 7 56 0" stroke-width="4"/>
+    <path d="M600 156c-37 62-44 139-23 221M600 156c37 62 44 139 23 221" stroke-width="3" opacity=".48"/>
+    <path d="M456 253c49-36 96-53 144-54 48 1 95 18 144 54M463 275c42-20 87-30 137-30 50 0 95 10 137 30" stroke="#586d72" stroke-width="6" opacity=".52"/>
+    <path d="M444 532c-35 2-65 26-71 60M756 532c35 2 65 26 71 60" stroke="#8b4f3f" stroke-width="5" opacity=".54"/>
+    <path d="M336 235c-57-24-90-12-111 23M864 235c57-24 90-12 111 23M337 700c-44 24-61 51-52 83M863 700c44 24 61 51 52 83" stroke-width="4" opacity=".38"/>
+  </g>
+  <g fill="#252a25">
+    <path d="M600 319l-25 50 25 34 25-34Z" opacity=".78"/>
+    <path d="M462 432c-31 20-55 49-68 86 29-20 56-27 81-22Z" opacity=".6"/>
+    <path d="M738 432c31 20 55 49 68 86-29-20-56-27-81-22Z" opacity=".6"/>
+  </g>
+  <g transform="translate(961 156)" fill="none" stroke="#7d3f35" stroke-width="3" opacity=".72">
+    <rect x="-42" y="-42" width="84" height="84" rx="3"/><path d="M-22-22h44v44h-44zM0-32v64M-32 0h64"/>
+  </g>
+</svg>

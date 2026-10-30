@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">担担面水墨插画</title>
+  <desc id="desc">竹筷挑起细面，红油、花生与青葱在留白碗中错落。</desc>
+  <defs><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".028" numOctaves="3" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter><filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
+  <rect width="1200" height="900" fill="#efebe2"/>
+  <ellipse cx="600" cy="742" rx="286" ry="51" fill="#242924" opacity=".11" filter="url(#blur)"/>
+  <g fill="none" stroke="#242924" stroke-linecap="round" filter="url(#rough)">
+    <path d="M342 478c19 82 44 158 81 204 28 34 97 53 177 53s149-19 177-53c37-46 62-122 81-204" stroke-width="8"/>
+    <path d="M340 478c80 22 176 32 260 32s180-10 260-32" stroke-width="9"/>
+    <path d="M382 701c58 24 136 32 218 32 82 0 160-8 218-32" stroke-width="3"/>
+    <path d="M382 570c102 19 334 19 436 0" stroke="#546b70" stroke-width="12" opacity=".26"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M470 487c-24-69 58-114 91-77 32 37-24 78 21 121 45 44 102-17 75-59-26-41 34-73 70-35 36 37-10 78 35 108" stroke="#74604b" stroke-width="7"/>
+    <path d="M491 486c-11-50 49-76 67-44 19 33-25 70 18 104 42 33 79-23 61-52-18-30 21-48 42-19 20 29-8 51 15 72" stroke="#a47a54" stroke-width="3"/>
+    <path d="M525 470c14-21 34-35 53-53M608 468c18-13 36-18 57-24M681 491c16-9 31-12 49-12" stroke="#8a4e3b" stroke-width="4" opacity=".62"/>
+  </g>
+  <g fill="#55686c" opacity=".52">
+    <circle cx="458" cy="532" r="11"/><circle cx="733" cy="525" r="9"/><circle cx="663" cy="546" r="7"/><circle cx="521" cy="558" r="6"/>
+  </g>
+  <g fill="#9b6a4b" opacity=".5">
+    <circle cx="562" cy="523" r="7"/><circle cx="706" cy="560" r="5"/><circle cx="480" cy="566" r="5"/>
+  </g>
+  <g fill="none" stroke="#242924" stroke-linecap="round">
+    <path d="M558 399 810 84M580 407 858 110" stroke-width="9"/>
+    <path d="M780 136c32-28 60-49 80-70M803 175c36-22 64-35 88-54" stroke-width="12" stroke-linecap="butt"/>
+    <path d="M417 308c-33-62-9-111 19-148M498 291c-28-56-5-104 24-138" stroke-width="3" opacity=".24"/>
+  </g>
+  <g transform="translate(250 225)" fill="none" stroke="#7e3f35" stroke-width="3" opacity=".7">
+    <rect x="-38" y="-38" width="76" height="76" rx="4"/><path d="M-19-19h38v38h-38zM0-30v60M-30 0h60"/>
+  </g>
+</svg>
